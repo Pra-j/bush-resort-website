@@ -1,5 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Page() {
-  return <h1>Hello Next!!</h1>;
+  return (
+    <div>
+      <Link href="/cabins">Explore Cabins</Link>
+      <h1>Welcome to Bush Resort, Located at heart of Mustang.</h1>
+    </div>
+  );
 }
